@@ -26,25 +26,25 @@ namespace _01_Linq
         {
             List<string> strings= new List<string>();
             strings.Add("a");
-            strings.Add("acc");
-            strings.Add("acayy");
+            strings.Add("accu");
+            strings.Add("acayyu");
             strings.Add("adassa");
             strings.Add("asswswe");
             strings.Add("addsdf");
-            strings.Add("assdeededg");                
+            strings.Add("assdeededgu");                
             strings.Add("h");
             strings.Add("i");
             strings.Add("i");
 
             var stringSort = from str in strings
-                             
-                             orderby str.StartsWith("a")
+                             where str.StartsWith("a") && str.EndsWith("u")
+                             orderby str descending
                              select str;
 
 
-            foreach (var item in str)
+            foreach (var str in stringSort)
             {
-
+                Console.WriteLine(str);
             }
 
                             
