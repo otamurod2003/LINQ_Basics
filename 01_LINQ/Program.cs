@@ -9,7 +9,12 @@ namespace _01_Linq
         {
             //Linq1();
             //Linq2();
-            Linq3();
+            //Linq3();
+            //Linq3_2();
+            //Linq4();
+            //Linq5();
+            //Linq6();
+            Linq7();
         }
 
         
@@ -78,6 +83,82 @@ namespace _01_Linq
                     );
             }               
 
+        }
+
+        static void Linq3_2()
+        {
+            var files = new DirectoryInfo("D:\\Text_files").GetFiles();
+
+            var request = from file in files
+                          where file.Length > 1
+                          orderby file.Name, file.CreationTime
+                          select new 
+                          {
+                              Name = file.Name,
+                              Length = file.Length,
+                              CreationTime = file.CreationTime,
+                          };
+            foreach (var file in request)
+            {
+                Console.WriteLine
+                    (
+                        "{0} faylining o'lchami: {1} bayt, yaratilgan vaqti: {2}",
+                        file.Name, file.Length, file.CreationTime
+                    );
+            }
+
+        }
+        //4-misol Extension metodlar 
+        //Extension metodlar deganda biron bir massivdan qanchadir miqdordagi elementni olib ko'rsatish haqida ilgari suradi
+        // Take operatori massiv elementlarini boshidan berilgan qiymatiga qarab natijani qaytarib berish vazifasini bajaradi
+        static void Linq4()
+        {
+            int[] numbers = { 1, 6, 8, 98, 45, 65, 78656, 56 };
+            var sonlar = numbers.Take(5);
+            
+            foreach(var number in sonlar)
+            {
+                Console.WriteLine(number);
+            }
+        }
+        // "Extension metodlar"
+        //5-misos
+
+        //Skip operatori yordamida berilgan massivdan qanchadir elementn berilgan
+        static void Linq5()
+        {
+            //massivning elon qilinishi
+            int[] numbers = { 1, 6, 8, 98, 45, 65, 78656, 56 };
+            //extension metod
+            var sonlar = numbers.Skip(3);
+
+            //natijani qaytarish uchun sikl
+            foreach (var number in sonlar)
+            {
+                Console.WriteLine(number);
+            }
+        }
+        static void Linq6()
+        {
+            string[] raqamToplami = { "a", "b", "d", "e", "f", "g", "h", "i", "j", "k", "l" };
+
+            var teskariToplam = raqamToplami.Reverse();
+
+            foreach (var num in teskariToplam)
+            {
+                Console.Write(num);
+            }
+        }
+        static void Linq7()
+        {
+            int[] raqamToplami = { 1,5,6,9,15,8,4,57,59,65,56, };
+
+            var teskariToplam = raqamToplami.TakeWhile(x => x < 65);
+
+            foreach (var num in teskariToplam)
+            {
+                Console.Write(num);
+            }
         }
     }
     }
