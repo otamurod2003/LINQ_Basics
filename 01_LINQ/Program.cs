@@ -35,16 +35,16 @@ namespace _01_Linq
         public static void Linq2()
         {
             List<string> strings= new List<string>();
-            strings.Add("a");
-            strings.Add("adadsdftyuyuiyuiyui");
-            strings.Add("adadsdfeewew");
-            strings.Add("adassa");
-            strings.Add("asswswe");
-            strings.Add("adadsdf");
-            strings.Add("assdeededgu");                
-            strings.Add("h");
-            strings.Add("i");
-            strings.Add("i");
+            strings.Add("Armresling");
+            strings.Add("Armstrong");
+            strings.Add("Ada Lavleys");
+            strings.Add("Ada de Bayron");
+            strings.Add("Losvages");
+            strings.Add("Hello");
+            strings.Add("ads");                
+            strings.Add("Advertisemrnt");
+            strings.Add("Uz");
+            strings.Add("Rooble");
             var ResultStr =  from str in strings 
                              where str.StartsWith("a") && str.Contains("ada")
                              orderby str descending
@@ -157,7 +157,7 @@ namespace _01_Linq
 
             foreach (var num in teskariToplam)
             {
-                Console.Write(num);
+                Console.WriteLine(num);
             }
         }
     }
