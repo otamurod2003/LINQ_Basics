@@ -1,0 +1,15 @@
+D:\practicVisualStudio\LINQ_Basics\01_LINQ\bin\Debug\net7.0\01_LINQ.exe
+D:\practicVisualStudio\LINQ_Basics\01_LINQ\bin\Debug\net7.0\01_LINQ.deps.json
+D:\practicVisualStudio\LINQ_Basics\01_LINQ\bin\Debug\net7.0\01_LINQ.runtimeconfig.json
+D:\practicVisualStudio\LINQ_Basics\01_LINQ\bin\Debug\net7.0\01_LINQ.dll
+D:\practicVisualStudio\LINQ_Basics\01_LINQ\bin\Debug\net7.0\01_LINQ.pdb
+D:\practicVisualStudio\LINQ_Basics\01_LINQ\obj\Debug\net7.0\01_LINQ.csproj.AssemblyReference.cache
+D:\practicVisualStudio\LINQ_Basics\01_LINQ\obj\Debug\net7.0\01_LINQ.GeneratedMSBuildEditorConfig.editorconfig
+D:\practicVisualStudio\LINQ_Basics\01_LINQ\obj\Debug\net7.0\01_LINQ.AssemblyInfoInputs.cache
+D:\practicVisualStudio\LINQ_Basics\01_LINQ\obj\Debug\net7.0\01_LINQ.AssemblyInfo.cs
+D:\practicVisualStudio\LINQ_Basics\01_LINQ\obj\Debug\net7.0\01_LINQ.csproj.CoreCompileInputs.cache
+D:\practicVisualStudio\LINQ_Basics\01_LINQ\obj\Debug\net7.0\01_LINQ.dll
+D:\practicVisualStudio\LINQ_Basics\01_LINQ\obj\Debug\net7.0\refint\01_LINQ.dll
+D:\practicVisualStudio\LINQ_Basics\01_LINQ\obj\Debug\net7.0\01_LINQ.pdb
+D:\practicVisualStudio\LINQ_Basics\01_LINQ\obj\Debug\net7.0\01_LINQ.genruntimeconfig.cache
+D:\practicVisualStudio\LINQ_Basics\01_LINQ\obj\Debug\net7.0\ref\01_LINQ.dll

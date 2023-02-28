@@ -1,0 +1,15 @@
+D:\practicVisualStudio\LINQ_Basics\02_Threading\bin\Debug\net6.0\02_Threading.exe
+D:\practicVisualStudio\LINQ_Basics\02_Threading\bin\Debug\net6.0\02_Threading.deps.json
+D:\practicVisualStudio\LINQ_Basics\02_Threading\bin\Debug\net6.0\02_Threading.runtimeconfig.json
+D:\practicVisualStudio\LINQ_Basics\02_Threading\bin\Debug\net6.0\02_Threading.dll
+D:\practicVisualStudio\LINQ_Basics\02_Threading\bin\Debug\net6.0\02_Threading.pdb
+D:\practicVisualStudio\LINQ_Basics\02_Threading\obj\Debug\net6.0\02_Threading.csproj.AssemblyReference.cache
+D:\practicVisualStudio\LINQ_Basics\02_Threading\obj\Debug\net6.0\02_Threading.GeneratedMSBuildEditorConfig.editorconfig
+D:\practicVisualStudio\LINQ_Basics\02_Threading\obj\Debug\net6.0\02_Threading.AssemblyInfoInputs.cache
+D:\practicVisualStudio\LINQ_Basics\02_Threading\obj\Debug\net6.0\02_Threading.AssemblyInfo.cs
+D:\practicVisualStudio\LINQ_Basics\02_Threading\obj\Debug\net6.0\02_Threading.csproj.CoreCompileInputs.cache
+D:\practicVisualStudio\LINQ_Basics\02_Threading\obj\Debug\net6.0\02_Threading.dll
+D:\practicVisualStudio\LINQ_Basics\02_Threading\obj\Debug\net6.0\refint\02_Threading.dll
+D:\practicVisualStudio\LINQ_Basics\02_Threading\obj\Debug\net6.0\02_Threading.pdb
+D:\practicVisualStudio\LINQ_Basics\02_Threading\obj\Debug\net6.0\02_Threading.genruntimeconfig.cache
+D:\practicVisualStudio\LINQ_Basics\02_Threading\obj\Debug\net6.0\ref\02_Threading.dll
